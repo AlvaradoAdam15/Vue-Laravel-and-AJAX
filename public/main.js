@@ -8,12 +8,18 @@ Vue.component('tasks', {
         return {
             list: []
         };
-    }
+    },
 
     created: function(){
         $.getJSON('api/tasks', function(tasks){
             this.list = tasks;
-        }.bind(this));
+        }.bind(this ));
+    },
+
+    methods: {
+        delete: function(task) {
+            this.list.$remove(task);
+        }
     }
 });
 

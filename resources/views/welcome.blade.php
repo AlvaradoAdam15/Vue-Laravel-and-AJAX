@@ -21,6 +21,8 @@
 
                         @{{$task.body}}
 
+                        <strong @click="delete(task)">X</strong>
+
                     </li>
 
             </ul>
