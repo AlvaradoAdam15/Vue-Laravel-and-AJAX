@@ -3,7 +3,7 @@
     <head>
         <title>Laravel</title>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootsrap/3.3.4/bootsrapt.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     </head>
     <body>
